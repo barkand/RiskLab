@@ -15,7 +15,7 @@ export const Colors = Object.freeze({
     GREEN: { LIGHT: green[500], DARK: green[700] },
     PURPLE: { LIGHT: purple[200], DARK: purple[400] },
     YELLOW: { LIGHT: orange[600], DARK: amber[600] },
-    GREY: { LIGHT: blueGrey[200], DARK: blueGrey[900] },
+    GREY: { LIGHT: blueGrey[200], DARK: "#2f353f" },
   },
   Secondary: {
     RED: { LIGHT: red[300], DARK: red[300] },
@@ -29,6 +29,10 @@ export const Colors = Object.freeze({
 
 export const Colors_Secondary = Object.freeze();
 
-export default function SetColor(mode, color, type) {
+export function SetColor(mode, color, type) {
   return Colors[type][color][mode];
+}
+
+export function SetBackColor(mode) {
+  return mode === "DARK" ? "#2f353f" : "#fafafa";
 }
