@@ -17,7 +17,7 @@ const TypographyTitle = ({ children }) => (
 );
 
 const TypographyBody = ({ children }) => (
-  <Typography variant="body1" sx={{ marginX: "343px", paddingBottom: "20px" }}>
+  <Typography variant="body1" sx={{ marginX: "0.8rem", paddingBottom: "20px" }}>
     {children}
   </Typography>
 );
