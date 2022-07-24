@@ -1,7 +1,7 @@
 {
-  "short_name": "CName",
-  "name": "Company Name",
-  "description": "Company Name description",
+  "name": "RiskLab AI",
+  "short_name": "RiskLabAI",
+  "description": "RiskLab.AI",
   "icons": [
     {
       "src": "favicon.ico",
@@ -26,9 +26,9 @@
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "Company Name",
-      "short_name": "CName",
-      "description": "Company Name description",
+      "name": "RiskLab AI",
+      "short_name": "RiskLabAI",
+      "description": "RiskLab.AI",
       "url": "/?source=pwa",
       "icons": [{ "src": "/image/Logo-192.png", "sizes": "192x192" }]
     }
