@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 export default function Main() {
   const Home = React.lazy(() => import("./Screens/Home"));
-  const Page1 = React.lazy(() => import("./Screens/Pages/Page1"));
+  const Page1 = React.lazy(() => import("./Screens/Pages/Page1/Page1"));
 
   const NotFoundPage = React.lazy(() =>
     import("../Template/Layout/Main/NotFoundPage")

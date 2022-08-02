@@ -4,9 +4,12 @@ import {
   TypographyHeader,
   TypographyTitle,
   TypographyBody,
-} from "../../../Template/Components/Product/Style/Typography";
+} from "../../../../Template/Components/Product/Style/Typography";
 
-import demo from "../../Static/Media/demo.jpg";
+import { StackChart } from "../../../../Template/Components/Charts";
+import dataChart from "./data/chart.csv";
+
+import demo from "../../../Static/Media/demo.jpg";
 let demoImage = (
   <div
     style={{
@@ -39,7 +42,12 @@ export default function Page1() {
         distributional uncertainty in the data is to formulate a decision-making
         problem as a DRO problem.
       </TypographyBody>
-      {demoImage}
+
+      {dataChart.length > 0 && (
+        <center>
+          <StackChart data={dataChart} size={{ width: 600, height: 250 }} />
+        </center>
+      )}
 
       <TypographyTitle>
         Unstructured Data: The main source of information
