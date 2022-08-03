@@ -20,11 +20,11 @@ export default function Chart({
 
   var margin = { top: 30, right: 20, bottom: 30, left: 20 };
 
-  var lineOpacity = "0.25";
-  var lineOpacityHover = "0.85";
-  var otherLinesOpacityHover = "0.1";
-  var lineStroke = "1.5px";
-  var lineStrokeHover = "2.5px";
+  var lineOpacity = "0.4";
+  var lineOpacityHover = "0.9";
+  var otherLinesOpacityHover = "0.2";
+  var lineStroke = "2px";
+  var lineStrokeHover = "3px";
 
   const svgWidth = size.width + margin.left + margin.right;
   const svgHeight = size.height + margin.top + margin.bottom;
