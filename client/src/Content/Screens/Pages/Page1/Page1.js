@@ -8,22 +8,37 @@ import {
 
 import { StackChart } from "../../../../Template/Components/Charts";
 import dataChart from "./data/chart.csv";
-
 import demo from "../../../Static/Media/demo.jpg";
-let demoImage = (
-  <div
-    style={{
-      flex: "1",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-    }}
-  >
-    <img src={demo} alt="demo" />
-  </div>
-);
 
 export default function Page1() {
+  let defaultWidth = 600;
+  let defaultHeight = 300;
+
+  if (typeof window !== `undefined`) {
+    defaultWidth =
+      window.innerWidth > defaultWidth ? defaultWidth : window.innerWidth - 80;
+    defaultHeight = defaultWidth / 2;
+  }
+
+  let demoImage = (
+    <div
+      style={{
+        flex: "1",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <img
+        src={demo}
+        alt="demo"
+        style={{
+          width: `${defaultWidth}px`,
+        }}
+      />
+    </div>
+  );
+
   document.title = "Ambiguity in the financial markets";
 
   return (
@@ -45,7 +60,10 @@ export default function Page1() {
 
       {dataChart.length > 0 && (
         <center>
-          <StackChart data={dataChart} size={{ width: 600, height: 250 }} />
+          <StackChart
+            data={dataChart}
+            size={{ width: defaultWidth, height: defaultHeight }}
+          />
         </center>
       )}
 
