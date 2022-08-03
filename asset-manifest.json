@@ -3,8 +3,8 @@
     "main.css": "/RiskLab/static/css/main.bacd0394.chunk.css",
     "main.js": "/RiskLab/static/js/main.367ed4f5.chunk.js",
     "main.js.map": "/RiskLab/static/js/main.367ed4f5.chunk.js.map",
-    "runtime-main.js": "/RiskLab/static/js/runtime-main.de2eab8d.js",
-    "runtime-main.js.map": "/RiskLab/static/js/runtime-main.de2eab8d.js.map",
+    "runtime-main.js": "/RiskLab/static/js/runtime-main.9031ae02.js",
+    "runtime-main.js.map": "/RiskLab/static/js/runtime-main.9031ae02.js.map",
     "static/js/2.0eff4090.chunk.js": "/RiskLab/static/js/2.0eff4090.chunk.js",
     "static/js/2.0eff4090.chunk.js.map": "/RiskLab/static/js/2.0eff4090.chunk.js.map",
     "static/js/3.b6e17117.chunk.js": "/RiskLab/static/js/3.b6e17117.chunk.js",
@@ -13,8 +13,8 @@
     "static/js/4.3a994b1f.chunk.js.map": "/RiskLab/static/js/4.3a994b1f.chunk.js.map",
     "static/js/5.df6540a6.chunk.js": "/RiskLab/static/js/5.df6540a6.chunk.js",
     "static/js/5.df6540a6.chunk.js.map": "/RiskLab/static/js/5.df6540a6.chunk.js.map",
-    "static/js/6.19084c21.chunk.js": "/RiskLab/static/js/6.19084c21.chunk.js",
-    "static/js/6.19084c21.chunk.js.map": "/RiskLab/static/js/6.19084c21.chunk.js.map",
+    "static/js/6.bc4581e7.chunk.js": "/RiskLab/static/js/6.bc4581e7.chunk.js",
+    "static/js/6.bc4581e7.chunk.js.map": "/RiskLab/static/js/6.bc4581e7.chunk.js.map",
     "static/js/7.056160e4.chunk.js": "/RiskLab/static/js/7.056160e4.chunk.js",
     "static/js/7.056160e4.chunk.js.map": "/RiskLab/static/js/7.056160e4.chunk.js.map",
     "static/js/8.bf27332b.chunk.js": "/RiskLab/static/js/8.bf27332b.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/demo.0a66e718.jpg": "/RiskLab/static/media/demo.0a66e718.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de2eab8d.js",
+    "static/js/runtime-main.9031ae02.js",
     "static/js/2.0eff4090.chunk.js",
     "static/css/main.bacd0394.chunk.css",
     "static/js/main.367ed4f5.chunk.js"
